@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Joti One", serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(26, 26, 72);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa {
+    padding: 20px;
+    background-color: rgb(233, 229, 229);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 8px;
+}
+
+.po {
+    color: rgb(236, 107, 16);
+}
+
+.botao {
+    margin: 30px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+
+#pedra {
+    background-color: rgb(231, 223, 14);
+}
+.pe {
+    color: rgb(172, 167, 25);
+}
+
+#papel {
+    background-color: rgb(0, 153, 255);
+}
+.pa {
+    color: rgb(0, 153, 255);
+}
+
+#tesoura {
+    background-color: rgb(255, 27, 27);
+}
+.te {
+    color: rgb(255, 27, 27);
+}
+
+p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.seu-ponto span {
+    color: rgb(0, 174, 52);
+}
+
+.ponto-bot span {
+    color: rebeccapurple;
+}
+
+@media screen and (max-width: 900px){
+    h3 {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    h1 {
+        margin-top: 10px;
+        font-size: 26px;
+        margin-bottom: 18px;
+    }
+    .caixa {
+        padding: 5px;
+        background-color: rgb(233, 229, 229);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    ul {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    p {
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+}
