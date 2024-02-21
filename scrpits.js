@@ -45,6 +45,7 @@ const playTheGame = (humano, Bot) => {
 
     }
     else if (pontosHumano >= 14 || pontosHumano === 15) {
+        fundo.style.backgroundColor = "rgb(26, 26, 72)"
         resposta.innerHTML = "Você ganhou a partida"
         result.innerHTML = "&#x1F3C6"
         seuPonto.innerHTML = 0
@@ -53,14 +54,17 @@ const playTheGame = (humano, Bot) => {
         pontosBot = 0
         
         
+        
     }
     else if (pontosBot >= 14){
+        fundo.style.backgroundColor = "rgb(26, 26, 72)"
         resposta.innerHTML = "Você perdeu a partida"
         result.innerHTML = "&#x1F602"
         seuPonto.innerHTML = 0
         pontoBot.innerHTML = 0
         pontosHumano = 0
         pontosBot = 0
+        
     }
     else {
 
